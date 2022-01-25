@@ -1,7 +1,7 @@
 # Cuttlebase
 
 
-Step 1. Manual Brain Mask Annotation 
+Step 1. Manual Brain Mask Annotation  
 Step 2. Brain Mask Improvement using DL-BET (see https://github.com/SAIL-GuoLab/DL-BET)  
 Step 3. Brain mask used to extract brain from MRI scan for each animal  
 Step 4. Diffeomorphic Registration using ANTs toolbox  
