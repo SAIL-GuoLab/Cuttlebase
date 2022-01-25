@@ -1,6 +1,7 @@
 # Cuttlebase
 
 
+Step 0. NIFTI conversion, bias field correction, isotropic upsampling to 50 micron resolution  
 Step 1. Manual Brain Mask Annotation  
 Step 2. Brain Mask Improvement using DL-BET (see https://github.com/SAIL-GuoLab/DL-BET)  
 Step 3. Brain mask used to extract brain from MRI scan for each animal  
