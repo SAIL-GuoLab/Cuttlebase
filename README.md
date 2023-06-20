@@ -1,4 +1,4 @@
-# Cuttlebase: 3D Brain
+# Cuttlebase: 3D MRI Brain Atlas
  
 To create an MRI-based 3D brain atlas for the dwarf cuttlefish, _ex vivo_ magnetic resonance imaging of 8 adult dwarf cuttlefish brains (4 males, 4 females) at 50 µm isotropic resolution was performed. Deep learning techniques were used to improve manually-annoted brain masks that were then used to extract the brain regions for subsequent diffeomorphic registration using the ANTs toolbox. Prior neuroanatomical descriptions were used to guide the annotation of brain lobes, which were co-registered to create a merged, annotated, brain template representative of the 8 cuttlefish subjects used in this study. This repository contains sourcecode for boldened steps outlined below used to create the MRI-based 3D brain atlas:
 
