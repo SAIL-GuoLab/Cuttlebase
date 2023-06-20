@@ -6,8 +6,7 @@ Step 0. NIFTI conversion, bias field correction, isotropic upsampling to 50 micr
 Step 1. Manual Brain Mask Annotation  
 Step 2. Brain Mask Improvement using DL-BET (see https://github.com/SAIL-GuoLab/DL-BET)  
 Step 3. Brain mask used to extract brain from MRI scan for each animal  
-**Step 4. Diffeomorphic Registration using ANTs toolbox**  
-Step 5. Manual Segmentation of Brain ROIs  
-**Step 6. Transformation of first set of segmented ROIs to remaining brains**  
-Step 7. Manual Correction of transformed segmentations  
-**Step 8. Majority Voting**
+**Step 4. Diffeomorphic Registration using ANTs toolbox to build MRI atlas**  
+Step 5. Segmentation of Brain ROIs  
+**Step 6. Transformation of segmented ROI labels to template space**  
+**Step 7. Majority voting of labels in template space for MRI atlas**
